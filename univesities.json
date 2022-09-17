@@ -1,0 +1,95 @@
+{
+  "universities": [
+    {
+      "name": "university of cape town",
+      "aps_method": "special",
+      "appendix": "aps_uct"
+    },
+    {
+      "name": "university of the witwatersrand",
+      "aps_method": "special",
+      "appendix": "aps_wits"
+    },
+    {
+      "name": "university pretoria",
+      "aps_method": "general",
+      "appendix": "general_aps"
+    },
+    {
+      "name": "university of western cape",
+      "aps_method": "special",
+      "appendix": "aps_uwc"
+    },
+    {
+      "name": "rhodes university",
+      "aps_method": "special",
+      "appendix": "aps_rhodes"
+    },
+    {
+      "name": "university of kwazulu-natal",
+      "aps_method": "general",
+      "appendix": "genaral_aps"
+    },
+    {
+      "name": "stellenbosch university",
+      "aps_method": "aggregate",
+      "appendix": "aggregate"
+    },
+    {
+      "name": "university of south africa",
+      "aps_method": "general",
+      "appendix": "genaral_aps"
+    },
+    {
+      "name": "university of south africa",
+      "aps_method": "general",
+      "appendix": "genaral_aps"
+    },
+    {
+      "name": "university of free state",
+      "aps_method": "general",
+      "appendix": "general_aps"
+    },
+    {
+      "name": "walter sisulu university",
+      "aps_method": "special",
+      "appendix": "aps_wsu"
+    },
+    {
+        "name": "university of limpopo",
+        "aps_method": "general",
+        "appendix": "general_aps"
+      },
+      {
+        "name": "university of mpumalanga",
+        "aps_method": "general",
+        "appendix": "general_aps"
+      },
+      {
+        "name": "university of johannesburg",
+        "aps_method": "general",
+        "appendix": "general_aps"
+      },
+      {
+        "name": "university of venda",
+        "aps_method": "special",
+        "appendix": "aps_univen"
+      },
+      {
+        "name": "university of fort hare",
+        "aps_method": "general",
+        "appendix": "general_aps"
+      },
+      {
+        "name": "university of zululand",
+        "aps_method": "general",
+        "appendix": "general_aps"
+      },
+      {
+        "name": "university of cape peninsula",
+        "aps_method": "special",
+        "appendix": "aps_cput"
+      }
+
+  ]
+}

@@ -1,0 +1,33 @@
+const { gradeRange } = require("./grade_range");
+const {
+  english_math,
+  life_orientation,
+  otherSubjects_plus,
+} = require("./grade_to_points");
+const { results2 } = require("./testResults");
+
+function calcEnglishMath(subject) {
+  return english_math.wits[gradeRange(subject)];
+}
+function calcLife_Orienation(subject) {
+  return life_orientation.wits[gradeRange(subject)];
+}
+
+function wits_calculateAps(results) {
+  var total = 0;
+  const res = results.map((sub) => {
+    if (sub.subject === "mathematics" || sub.subject === "english") {
+      total = total + calcEnglishMath(sub);
+      return calcEnglishMath(sub);
+    } else if (sub.subject === "life_orientation") {
+      total = total + calcLife_Orienation(sub);
+      return calcLife_Orienation(sub);
+    } else {
+      total = total + otherSubjects_plus[gradeRange(sub)];
+      return otherSubjects_plus[gradeRange(sub)];
+    }
+  });
+  return `Your APS is : ${total} points at wits`;
+}
+
+console.log(wits_calculateAps(results2));
